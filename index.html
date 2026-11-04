@@ -4,16 +4,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <!-- Judul yang Muncul di Google -->
+  <!-- 1. SEO META TAGS (Agar Mudah Ditemukan di Google) -->
   <title>Pelayanan Pemulasaran Jenazah Jakarta Timur | Layanan 24 Jam</title>
-  
-  <!-- Deskripsi Situs yang Muncul di Bawah Judul Google -->
   <meta name="description" content="Situs resmi layanan pemulasaran jenazah dan bantuan darurat wilayah Jakarta Timur. Informasi kontak, prosedur, dan pelaporan cepat untuk masyarakat.">
-  
-  <!-- Kata Kunci Pencarian -->
-  <meta name="keywords" content="pemulasaran jenazah jakarta timur, layanan jenazah jaktim, ambulans jenazah jakarta timur">
-  
-  <!-- Diperbaiki: Menggunakan tag link stylesheet yang benar -->
+  <meta name="keywords" content="pemulasaran jenazah jakarta timur, layanan jenazah jaktim, ambulans jenazah jakarta timur, lapor pemulasaran jenazah">
+  <meta name="author" content="Pelayanan Pemulasaran Jenazah Jakarta Timur">
+  <meta name="robots" content="index, follow">
+
+  <!-- 2. VERIFIKASI GOOGLE SEARCH CONSOLE -->
+  <meta name="google-site-verification" content="AcyLivJd8alkgnqUw7PZKAQnaPKiD1jruSQK1QQlsAI" />
+
+  <!-- 3. STRUCTURED DATA / SCHEMA MARKUP (Memberi Tahu Google Identitas Layanan Ini) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "GovernmentService",
+    "name": "Pelayanan Pemulasaran Jenazah Jakarta Timur",
+    "url": "https://pelayananpemulasaranjenazah-jaktim.github.io/PPJ-Jaktim/",
+    "areaServed": {
+      "@type": "AdministrativeArea",
+      "name": "Jakarta Timur"
+    },
+    "serviceType": "Pemulasaran Jenazah"
+  }
+  </script>
+
+  <!-- 4. STYLESHEET & TAMPILAN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     html, body {
@@ -38,9 +54,9 @@
       border: none;
     }
   </style>
-  <meta name="google-site-verification" content="AcyLivJd8alkgnqUw7PZKAQnaPKiD1jruSQK1QQlsAI" />
 </head>
 <body>
+  <!-- 5. APLIKASI UTAMA (Google Apps Script Form & Pelaporan) -->
   <div class="iframe-container">
     <iframe
       id="app"
